@@ -18,7 +18,7 @@ COLLECTION_NAME = "doc_chat_rag"
 GEMINI_API_KEY = "AIzaSyBPpxPBZbbBJdfVTowZNzHa0AOwWwxMCgk"
 genai.configure(api_key=GEMINI_API_KEY)
 
-EMBED_MODEL = SentenceTransformer("all-MiniLM-L6-v2")
+EMBED_MODEL = SentenceTransformer("all-MiniLM-L6-v2",device="cpu")
 
 client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)
 
