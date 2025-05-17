@@ -36,6 +36,23 @@ This project is a **Streamlit application** that enables users to **upload and c
 ├── app.py                      # Main Streamlit app
 ├── requirements.txt            # Python dependencies
 ```
+## 📸 Screenshots
+
+### UI using Streamlit
+
+![image](https://github.com/user-attachments/assets/07c5c0b1-77a9-43c7-8c56-fbc78dba0c54)
+
+### Chatting Interface using RAG Concepts
+##### Retrieve based on uploaded document.
+![Screenshot (52)](https://github.com/user-attachments/assets/3276a9f2-fe34-485b-a4a3-2118980bb090)
+
+![Screenshot (53)](https://github.com/user-attachments/assets/84cad4f1-67c1-4b87-8404-0d5d14f1d5c3)
+
+![image](https://github.com/user-attachments/assets/8ed7b475-fb42-4eee-9d0c-e95bc065c886)
+
+### Qdrant Database
+
+![image](https://github.com/user-attachments/assets/1ec8c0e3-ad01-4c92-ae2c-e7faa30a7691)
 
 ---
 
