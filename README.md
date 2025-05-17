@@ -105,6 +105,10 @@ streamlit run app.py
 
 ---
 
+## 🔗 DEMO
+
+[Do Check it Out !](https://rag-chatapp-by-yuva.streamlit.app/)
+
 ## 🧑‍💻 Author
 
 **Yuva Sri Ramesh**
