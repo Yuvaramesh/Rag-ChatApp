@@ -1,8 +1,9 @@
 streamlit
 qdrant-client
-PyPDF2
-docx
-pandas
 sentence-transformers
+PyPDF2
+python-docx
+pandas
 google-generativeai
-openpyxl
+langchain==0.1.14
+langchain-text-splitters==0.0.1
