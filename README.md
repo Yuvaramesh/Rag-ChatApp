@@ -44,11 +44,12 @@ This project is a **Streamlit application** that enables users to **upload and c
 
 ### Chatting Interface using RAG Concepts
 ##### Retrieve based on uploaded document.
-![Screenshot (52)](https://github.com/user-attachments/assets/3276a9f2-fe34-485b-a4a3-2118980bb090)
+![WhatsApp Image 2025-05-20 at 10 15 35_413a014d](https://github.com/user-attachments/assets/bbcb3366-8dc3-48be-9246-0024ad037f73)
 
-![Screenshot (53)](https://github.com/user-attachments/assets/84cad4f1-67c1-4b87-8404-0d5d14f1d5c3)
+![WhatsApp Image 2025-05-20 at 10 15 34_4a1dcc61](https://github.com/user-attachments/assets/57cb1fa2-7695-4189-b758-f173f71860bb)
 
-![image](https://github.com/user-attachments/assets/8ed7b475-fb42-4eee-9d0c-e95bc065c886)
+![WhatsApp Image 2025-05-20 at 10 15 35_96eea2c1](https://github.com/user-attachments/assets/aec8ec1f-5038-4830-a4ab-899ed2e778a1)
+
 
 ### Qdrant Database
 
