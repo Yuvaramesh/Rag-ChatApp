@@ -14,12 +14,9 @@ import google.generativeai as genai
 QDRANT_URL = "https://2ed85abb-e606-4167-8d2e-ce4185f33997.us-east4-0.gcp.cloud.qdrant.io"
 QDRANT_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.UYr-iYmbfZzhyr-lGQBlMlMuYQIAxriQhZd6af7vLq4"
 COLLECTION_NAME = "doc_chat_rag"
-
 GEMINI_API_KEY = "AIzaSyBPpxPBZbbBJdfVTowZNzHa0AOwWwxMCgk"
 genai.configure(api_key=GEMINI_API_KEY)
-
 EMBED_MODEL = SentenceTransformer("all-MiniLM-L6-v2",device="cpu")
-
 client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)
 
 # ========== CREATE COLLECTION IF NOT EXISTS ==========
@@ -42,7 +39,6 @@ def extract_text(file):
         return file.read().decode("utf-8")
     else:
         raise ValueError(f"Unsupported file type: {ext}")
-
 def embed_and_store(file, content):
     splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
     chunks = splitter.split_text(content)
@@ -66,7 +62,6 @@ def search_context(query, top_k=3):
         with_payload=True
     )
     return [res.payload["text"] for res in results]
-
 def ask_gemini(prompt, context):
     full_prompt = f"""
 You are an intelligent document assistant. Use the provided context to answer the user's question.
@@ -117,8 +112,6 @@ if query:
 
         st.markdown("### 🧠 Answer:")
         st.write(answer)
-
-        
 
     except Exception as e:
         st.error(f"❌ Error: {e}")
