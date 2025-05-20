@@ -99,7 +99,6 @@ GEMINI_API_KEY = "<your-gemini-api-key>"
 ```bash
 streamlit run app.py
 ```
-
 ---
 
 ## 📌 Usage
