@@ -43,7 +43,6 @@ def extract_text(file):
         return file.read().decode("utf-8")
     else:
         raise ValueError(f"Unsupported file type: {ext}")
-
 def embed_and_store(file, content):
     splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
     chunks = splitter.split_text(content)
@@ -67,7 +66,6 @@ def search_context(query, top_k=3):
         with_payload=True
     )
     return [res.payload["text"] for res in results]
-
 def ask_gemini(prompt, context):
     full_prompt = f"""
 You are an intelligent document assistant. Use the provided context to answer the user's question.
