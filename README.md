@@ -62,7 +62,7 @@ This project is a **Streamlit application** that enables users to **upload and c
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/multi-doc-chat-rag.git
+git clone https://github.com/Yuvaramesh/Rag-ChatApp.git
 cd multi-doc-chat-rag
 ```
 
