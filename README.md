@@ -36,6 +36,7 @@ This project is a **Streamlit application** that enables users to **upload and c
 ├── app.py                      # Main Streamlit app
 ├── requirements.txt            # Python dependencies
 ```
+
 ## 📸 Screenshots
 
 ### UI using Streamlit
