@@ -113,7 +113,6 @@ streamlit run app.py
 
 ---
 
-
 ## 📈 Future Enhancements
 
 * 🔍 Highlight referenced context in UI
