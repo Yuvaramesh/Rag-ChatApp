@@ -1,4 +1,3 @@
-
 # 📚 Multi-Document Chat with RAG (Retrieval-Augmented Generation)
 
 This project is a **Streamlit application** that enables users to **upload and chat with multiple documents** (PDF, DOCX, TXT). It uses **Qdrant as the vector store**, **Sentence Transformers for embedding**, and **Gemini API (Generative AI)** to generate contextual answers based on user queries.
