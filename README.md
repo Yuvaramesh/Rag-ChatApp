@@ -15,7 +15,6 @@ This project is a **Streamlit application** that enables users to **upload and c
 * 💬 Clean, interactive chat interface powered by Streamlit
 
 ---
-
 ## 🛠️ Tech Stack
 
 | Layer           | Tool / Library                                            |
